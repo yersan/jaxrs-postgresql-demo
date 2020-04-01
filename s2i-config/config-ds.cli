@@ -1,0 +1,6 @@
+data-source add --jndi-name=java:/jboss/datasources/PostgreSQLDS \
+    --name=PostgreSQLPool \
+    --connection-url=jdbc:postgresql://database-server:5432/demodb \
+    --driver-name=postgresql \
+    --user-name=postgre \
+    --password=admin
